@@ -4,13 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.android_project'
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.android_project"
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdk 26
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
